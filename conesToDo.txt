@@ -1,0 +1,47 @@
+CONES -- TODO
+-------------
+
+[x]  Create 2 classes - vendor/user
+[x]  Set vendor's location to emit always
+[x]  Set vendor location on map with annotation
+[x]  Create user class
+[x]  Create login for vendor
+[x]  Make return button work for login screen
+[x]  Add back button to signup screen
+[x]  Password protect password fields
+[x]  Figure out way to handle if vendor decides to be regular user in same session
+[x]  Allow vendor to log out
+[x]  What if 2 people have the same login name -- PARSE HANDLES THIS
+[x]  Create cancel button for sign up page
+[x]  Ask henry to login as vendor, then go to user
+[x]  Figure out the black bars issue on henry's phone.
+[x]  Hide status bar
+[x]  Change navbar text colors
+[x]  ERROR HANDLING - Notify user of failed logins or signups via UIAlertView
+[x]  Import Cones Logo font and use everywhere
+[x]  Add loading icons for logins/etc.
+[x]  Update UI for login pages
+[x]  Touch screen and hide keyboard on all views
+[x]  Add fake ice cream truck locations for presentation
+[x]  Revisit the zoom to new locations functionality - "i went to a new spot"
+[x]  Only shows truck within radius.  If you zoom out, then zoom to another area, no trucks appear.
+[x]  Logout button should not be shown if user is logged in
+
+PRESENTATION
+[ ] Prepare coordinates on parse
+[ ] Record Video
+
+
+EXTRAS
+[ ]  Add text field validation for login and signup
+[ ]  Vendor location stops emitting - i think - when app is in the background for x minutes
+[ ]  Send location update only after X amount of feet (might fix the issue above^).
+[ ]  Determine how to handle removing ice cream trucks
+[ ]  Instruct user & vendor to go to settings if they decline gps use.
+[ ]  Add push notifications
+[ ]  Vendor editable
+[ ]  Have a vendor settings page w/ store hours to transmit/password/username/etc. updates
+[ ]  Set up retrieve vendor location w/ certain time frames 
+[ ]  Set PFObject parents instead of using a separate column
+[ ]  Need password validation (front end check). Parse currently accepts blank fields
+[ ]  Should implement email verifications?
